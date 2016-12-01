@@ -15,11 +15,20 @@ header {
 }
 
 #instruct {
-  font-size: 20px;
+  font-size: 25px;
   font-family: arial, sans-serif;
   background-color: #E8980C;
   display: inline-block;
   padding-top: 20px;
   padding-bottom: 20px;
+  color: #ffffff; 
+}
+
+#total-score {
+  font-size: 20px; 
+  font-family: arial, sans-serif;
+  background-color: #FF6D0D;
+  display: inline-block;
+  padding-right: 25px;
   color: #ffffff; 
 }
