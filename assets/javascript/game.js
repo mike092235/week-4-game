@@ -70,8 +70,8 @@ $('#diamond').on('click', function() {
     }
 });
 
-$('#diamond').on('click', function() {
-  currentScore += diamondVal;
+$('#pink-gem').on('click', function() {
+  currentScore += pinkGemVal;
   $('#currentScore').html(currentScore);
 
     if (currentScore == targetScore) {
@@ -89,8 +89,8 @@ $('#diamond').on('click', function() {
     }
 });
 
-$('#diamond').on('click', function() {
-  currentScore += diamondVal;
+$('#ruby').on('click', function() {
+  currentScore += rubyGemVal;
   $('#currentScore').html(currentScore);
 
     if (currentScore == targetScore) {
@@ -108,8 +108,8 @@ $('#diamond').on('click', function() {
     }
 });
 
-$('#diamond').on('click', function() {
-  currentScore += diamondVal;
+$('#white-gem').on('click', function() {
+  currentScore += whiteGemVal;
   $('#currentScore').html(currentScore);
 
     if (currentScore == targetScore) {
