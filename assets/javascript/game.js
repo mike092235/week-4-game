@@ -24,3 +24,117 @@ $(document).ready(function(){
   $('#white-gem').attr("data-num", whiteGemVal);
 });
 
+function newGame() {
+  console.log(diamondVal)
+  currentScore = 0;
+  $('#currentScore').html(currentScore);
+  diamondVal = 0;
+  pinkGemVal = 0;
+  rubyGemVal = 0;
+  whiteGemVal = 0;
+  var targetScore = Math.floor(Math.random()*101 + 19);
+  var diamondVal = Math.floor(Math.random()*12 + 1);
+  var pinkGemVal = Math.floor(Math.random()*12 + 1);
+  var rubyGemVal = Math.floor(Math.random()*12 + 1);
+  var whiteGemVal = Math.floor(Math.random()*12 + 1);
+  $('#targetScore').html(targetScore);
+  $('#diamond').attr("data-num", diamondVal);
+  $('#pink-gem').attr("data-num", pinkGemVal);
+  $('#ruby').attr("data-num", rubyGemVal);
+  $('#white-gem').attr("data-num", whiteGemVal);
+  console.log(diamondVal)
+}
+
+newGame();
+$('#diamond').attr("data-num", diamondVal)
+$('#pink-gem').attr("data-num", pinkGemVal)
+$('#ruby').attr("data-num", rubyGemVal)
+$('#white-gem').attr("data-num", whiteGemVal)
+
+$('#diamond').on('click', function() {
+  currentScore += diamondVal;
+  $('#currentScore').html(currentScore);
+
+    if (currentScore == targetScore) {
+      alert("Congrats You Win!")
+      wins++
+      $("#wins").html(wins);
+      newGame();
+    }
+
+    if (currentScore > targetScore) {
+      alert("You Lose!")
+      losses++
+      $('#loses').html(losses);
+      newGame();
+    }
+});
+
+$('#diamond').on('click', function() {
+  currentScore += diamondVal;
+  $('#currentScore').html(currentScore);
+
+    if (currentScore == targetScore) {
+      alert("Congrats You Win!")
+      wins++
+      $("#wins").html(wins);
+      newGame();
+    }
+
+    if (currentScore > targetScore) {
+      alert("You Lose!")
+      losses++
+      $('#loses').html(losses);
+      newGame();
+    }
+});
+
+$('#diamond').on('click', function() {
+  currentScore += diamondVal;
+  $('#currentScore').html(currentScore);
+
+    if (currentScore == targetScore) {
+      alert("Congrats You Win!")
+      wins++
+      $("#wins").html(wins);
+      newGame();
+    }
+
+    if (currentScore > targetScore) {
+      alert("You Lose!")
+      losses++
+      $('#loses').html(losses);
+      newGame();
+    }
+});
+
+$('#diamond').on('click', function() {
+  currentScore += diamondVal;
+  $('#currentScore').html(currentScore);
+
+    if (currentScore == targetScore) {
+      alert("Congrats You Win!")
+      wins++
+      $("#wins").html(wins);
+      newGame();
+    }
+
+    if (currentScore > targetScore) {
+      alert("You Lose!")
+      losses++
+      $('#loses').html(losses);
+      newGame();
+    }
+});
+
+
+
+
+
+
+
+
+
+
+
+
