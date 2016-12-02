@@ -58,7 +58,7 @@ $('#diamond').on('click', function() {
     if (currentScore == targetScore) {
       alert("Congrats You Win!")
       wins++
-      $("#wins").html(wins);
+      $("#wins").html("Wins: " + wins);
       newGame();
     }
 
@@ -77,7 +77,7 @@ $('#pink-gem').on('click', function() {
     if (currentScore == targetScore) {
       alert("Congrats You Win!")
       wins++
-      $("#wins").html(wins);
+      $("#wins").html("Wins: " + wins);
       newGame();
     }
 
@@ -96,7 +96,7 @@ $('#ruby').on('click', function() {
     if (currentScore == targetScore) {
       alert("Congrats You Win!")
       wins++
-      $("#wins").html(wins);
+      $("#wins").html("Wins: " + wins);
       newGame();
     }
 
@@ -115,7 +115,7 @@ $('#white-gem').on('click', function() {
     if (currentScore == targetScore) {
       alert("Congrats You Win!")
       wins++
-      $("#wins").html(wins);
+      $("#wins").html("Wins: " + wins);
       newGame();
     }
 
