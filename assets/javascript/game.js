@@ -20,7 +20,7 @@ $(document).ready(function(){
   var pinkGemVal = Math.floor(Math.random()*12 + 1);
   var rubyGemVal = Math.floor(Math.random()*12 + 1);
   var whiteGemVal = Math.floor(Math.random()*12 + 1);
-  
+  $
 })
 
 
