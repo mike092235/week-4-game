@@ -14,6 +14,12 @@ var whiteGemVal = 0; // value of white gem
 //FUNCTIONS (Reusable blocks of code that I will call upon when needed)
 //=================================================================================================
 $(document).ready(function(){
+  var currentScore = 0;
+  var targetScore = Math.floor(Math.random()*101 + 19);
+  var diamondVal = Math.floor(Math.random()*12 + 1);
+  var pinkGemVal = Math.floor(Math.random()*12 + 1);
+  var rubyGemVal = Math.floor(Math.random()*12 + 1);
+  var whiteGemVal = Math.floor(Math.random()*12 + 1);
   
 })
 
